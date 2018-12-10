@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <MenuBar prefHeight="21.0" prefWidth="640.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <Pane layoutY="29.0" prefHeight="204.0" prefWidth="286.0">
+               <children>
+                  <Label layoutX="60.0" layoutY="9.0" prefHeight="16.0" prefWidth="82.0" text="В наличии :" textAlignment="CENTER" underline="true" />
+                  <Label layoutX="210.0" layoutY="40.0" prefHeight="16.0" prefWidth="60.0" text="Нужно :" textAlignment="JUSTIFY" underline="true" wrapText="true" />
+                  <TextField fx:id="sv1" layoutX="26.0" layoutY="30.0" prefHeight="16.0" prefWidth="46.0" />
+                  <TextField fx:id="sv2" layoutX="78.0" layoutY="30.0" prefHeight="16.0" prefWidth="46.0" />
+                  <TextField fx:id="sv3" layoutX="130.0" layoutY="30.0" prefHeight="16.0" prefWidth="46.0" />
+                  <TextField fx:id="tv4" layoutX="217.0" layoutY="162.0" prefHeight="16.0" prefWidth="46.0" />
+                  <TextField fx:id="tv1" layoutX="217.0" layoutY="69.0" prefHeight="16.0" prefWidth="46.0" />
+                  <TextField fx:id="tv2" layoutX="217.0" layoutY="100.0" prefHeight="16.0" prefWidth="46.0" />
+                  <TextField fx:id="tv3" layoutX="217.0" layoutY="131.0" prefHeight="16.0" prefWidth="46.0" />
+                  <TextField fx:id="v1" layoutX="26.0" layoutY="69.0" prefHeight="16.0" prefWidth="46.0" />
+                  <TextField fx:id="v2" layoutX="78.0" layoutY="69.0" prefHeight="16.0" prefWidth="46.0" />
+                  <TextField fx:id="v3" layoutX="130.0" layoutY="69.0" prefHeight="16.0" prefWidth="46.0" />
+                  <TextField fx:id="v4" layoutX="26.0" layoutY="100.0" prefHeight="16.0" prefWidth="46.0" />
+                  <TextField fx:id="v5" layoutX="78.0" layoutY="100.0" prefHeight="16.0" prefWidth="46.0" />
+                  <TextField fx:id="v6" layoutX="130.0" layoutY="100.0" prefHeight="16.0" prefWidth="46.0" />
+                  <TextField fx:id="v7" layoutX="26.0" layoutY="131.0" prefHeight="16.0" prefWidth="46.0" />
+                  <TextField fx:id="v8" layoutX="78.0" layoutY="131.0" prefHeight="16.0" prefWidth="46.0" />
+                  <TextField fx:id="v9" layoutX="130.0" layoutY="131.0" prefHeight="16.0" prefWidth="46.0" />
+                  <TextField fx:id="v10" layoutX="26.0" layoutY="162.0" prefHeight="16.0" prefWidth="46.0" />
+                  <TextField fx:id="v11" layoutX="78.0" layoutY="162.0" prefHeight="16.0" prefWidth="46.0" />
+                  <TextField fx:id="v12" layoutX="130.0" layoutY="162.0" prefHeight="16.0" prefWidth="46.0" />
+               </children>
+            </Pane>
+            <Button fx:id="sb" layoutX="24.0" layoutY="291.0" mnemonicParsing="false" onAction="#sbOnAction" text="Посчитать" />
+            <Pane layoutX="354.0" layoutY="29.0" prefHeight="204.0" prefWidth="286.0">
+               <children>
+                  <Label contentDisplay="CENTER" layoutX="60.0" layoutY="9.0" prefHeight="16.0" prefWidth="82.0" text="В наличии :" textAlignment="CENTER" underline="true" />
+                  <Label contentDisplay="CENTER" layoutX="210.0" layoutY="40.0" prefHeight="16.0" prefWidth="60.0" text="Нужно :" textAlignment="JUSTIFY" underline="true" wrapText="true" />
+                  <Label fx:id="s1" layoutX="26.0" layoutY="30.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+                  <Label fx:id="s3" layoutX="130.0" layoutY="30.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+                  <Label fx:id="s2" layoutX="78.0" layoutY="30.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+                  <Label fx:id="t1" layoutX="217.0" layoutY="69.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+                  <Label fx:id="t2" layoutX="217.0" layoutY="100.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+                  <Label fx:id="t3" layoutX="217.0" layoutY="131.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+                  <Label fx:id="t4" layoutX="217.0" layoutY="162.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+                  <Label fx:id="p7" layoutX="26.0" layoutY="131.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+                  <Label fx:id="p9" layoutX="130.0" layoutY="131.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+                  <Label fx:id="p8" layoutX="78.0" layoutY="131.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+                  <Label fx:id="p4" layoutX="26.0" layoutY="100.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+                  <Label fx:id="p6" layoutX="130.0" layoutY="100.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+                  <Label fx:id="p5" layoutX="78.0" layoutY="100.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+                  <Label fx:id="p1" layoutX="26.0" layoutY="69.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+                  <Label fx:id="p3" layoutX="130.0" layoutY="69.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+                  <Label fx:id="p2" layoutX="78.0" layoutY="69.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+                  <Label fx:id="p10" layoutX="26.0" layoutY="162.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+                  <Label fx:id="p12" layoutX="130.0" layoutY="162.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+                  <Label fx:id="p11" layoutX="78.0" layoutY="162.0" prefHeight="26.0" prefWidth="46.0" text="Label" />
+               </children>
+            </Pane>
+            <Label layoutX="24.0" layoutY="340.0" text="Итоговая сумма перевозки :" />
+            <Label fx:id="overall" layoutX="232.0" layoutY="334.0" underline="true">
+               <font>
+                  <Font name="FreeMono" size="27.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="methodPicker" layoutX="24.0" layoutY="257.0" prefWidth="150.0" promptText="Метод..." />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
